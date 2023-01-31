@@ -1,11 +1,11 @@
-import Link from '../src/components/Link'
+import Link from '../src/components/Link';
 
 export default function FAQPage() {
-    return(
+    return (
         <div>
-            <h1>Alura Cases - Página de Perguntas FAQ</h1>
+            <h1>Alura Cases - Páginas de Perguntas FAQ</h1>
             <Link href="/">
-                Ir para a HOME
+                Ir para a home
             </Link>
         </div>
     )
