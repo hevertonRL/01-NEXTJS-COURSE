@@ -1,4 +1,5 @@
 import Footer from '../../components/patterns/Footer'
+import PageTitle from '../../components/PageTitle'
 import Link from '../../components/Link'
 import { theme } from '../../components/theme/theme';
 import { Image, Box, Text, Icon, Input, Button } from '../../components/theme/components';
@@ -8,6 +9,8 @@ const SIDE_IMAGE_URL = '/images/alura-cases.png';
 
 function SideImage() {
   return (
+    <>
+    <PageTitle>Home - Alura Cases Campanha</PageTitle>
     <Box
       styleSheet={{
         paddingHorizontal: {
@@ -90,6 +93,7 @@ function SideImage() {
         </Box>
       </Box>
     </Box>
+    </>
   )
 }
 

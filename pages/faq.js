@@ -1,4 +1,5 @@
 import Link from '../src/components/Link';
+import PageTitle from '../../components/PageTitle'
 
 // Modos:
 // SSG - Static Site Generation
@@ -31,7 +32,9 @@ export default function FAQPage({ faq }) {
     
     return (
         <div>
+            <PageTitle>Home - Alura Cases Campanha</PageTitle>
             <h1>Alura Cases - Páginas de Perguntas FAQ</h1>
+            
             <Link href="/">
                 Ir para a home
             </Link>
