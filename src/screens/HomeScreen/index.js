@@ -1,7 +1,7 @@
-import Footer from '../../components/patterns/Footer'
+import Footer from "../../components/patterns/Footer"
 import PageTitle from '../../components/PageTitle'
 import Link from '../../components/Link'
-import { theme } from '../../components/theme/theme';
+import { theme } from "../../components/theme/theme.js"
 import { Image, Box, Text, Icon, Input, Button } from '../../components/theme/components';
 
 const LOGO_ALURA_URL = '/images/alura-logo.svg';
